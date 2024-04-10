@@ -44,7 +44,10 @@
   - a data element is an attribute about a person, place. they describe characteristics of activities.
   - data type limits the values a data element can have.
 
-  ##
+# Structures data types
+- is tabular like a spreadsheet.
+- character data types limits data entry to only valid characters.
+- 
 </details>
 
 <details>
