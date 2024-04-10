@@ -39,8 +39,12 @@
     ### Analytics tools
     - automate data analysis, improving ability to acquire, clean, manipulate, visualize and analyze data.
 
-  ## Understand Data
-  - 
+# Understand Data
+  ## Data Types
+  - a data element is an attribute about a person, place. they describe characteristics of activities.
+  - data type limits the values a data element can have.
+
+  ##
 </details>
 
 <details>
