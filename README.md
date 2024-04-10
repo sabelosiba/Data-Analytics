@@ -44,10 +44,29 @@
   - a data element is an attribute about a person, place. they describe characteristics of activities.
   - data type limits the values a data element can have.
 
-# Structures data types
-- is tabular like a spreadsheet.
-- character data types limits data entry to only valid characters.
-- 
+  ## Structures data types
+  - is tabular data like a spreadsheet.
+  - character data types limits data entry to only valid characters.
+  
+  #3 Unstructured
+  - is any type of data that does not fit neatly into the tabular model.
+  - eg. digital images, audio and video recordings
+  - storing unstructured data
+    - binary
+
+  ## Categories of data
+  - Quantitative (How much/many?) vs Qualitative Data (What/why?)
+  - Discrete vs Countinuous Data
+    - discreete represent measurements that cant be subdivided. eg. whole number
+    - Countinuous can represent measure of average and have decimal 
+    - Quantitative (can be both), but Qualitative is discrete
+  - Categorical Data
+    - Text data with known, finite number of categories
+  - Dimensional Data
+    - is an approach to arranging data to facilitate analysis.
+   
+  ## Common Structures
+  - 
 </details>
 
 <details>
