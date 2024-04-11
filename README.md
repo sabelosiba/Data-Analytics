@@ -66,7 +66,50 @@
     - is an approach to arranging data to facilitate analysis.
    
   ## Common Structures
-  - 
+  ### Structured data
+  - Tabular data is structured data with values stored in consistent manner and organized into rows and columns. facilitates aggregation
+  - specify a unique key to identify values in a row
+
+  ### Unstructured
+  - is qualitative, describing the characteristics of an event or object.
+  - eg. images, audio , video and descriptive text
+  - machine data is common source of unstructured data as machines operates they create a digital footprint that data is unstructured
+  - storage - key is a unique identifier and value is the data itself.
+
+  ### Semi-Structured
+  - is data that has structure and that is not tabular. eg Email
+  - Every Email has structural components eg. recipient, sender, subject, date and time
+  - body of email is unstructured text, while attachments can be anything type of file.
+
+  ## Common File formats
+  - facilitate data exchange and tool interoperability.
+  - Text Files
+  - Fixed-Width Files
+  - JavaScript Object Notation
+  - Extensible Markup Language (XML)
+  - HyperText Markup Language (HTML)
+
+# Data Preparation and Exploration
+- Module focus
+  - understand how to explore and acquire data
+  - learn databases and need to classify and store or structure data
+  - data manipulation techniques and how to manage data quality
+  - fundamentals of stats and analysis techniques
+ 
+  ## Databases and Data Acquisition
+  - Two categories of databases
+    - Relational - for storing and processing structured data
+    - Nonrelational - 
+
+    ### The Relational Model
+    - The entity relationship diagram (ERD) is a visual of data modelling process, it shows the connection between related entities.
+    - cardinality refers to the relationship between two entities.
+    - unary relationship is when an entity has a connection with itself.
+    - A binary relationship connects two entities
+   
+    ### Relational Databases
+    - Relational databasess let you make operational system out of an ERD, Relational entities correspond to databases tables, and entity attributes correspond to table columns.
+    - An associative table is both a table and a relationship
 </details>
 
 <details>
