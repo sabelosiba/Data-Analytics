@@ -48,7 +48,7 @@
   - is tabular data like a spreadsheet.
   - character data types limits data entry to only valid characters.
   
-  #3 Unstructured
+  ## Unstructured
   - is any type of data that does not fit neatly into the tabular model.
   - eg. digital images, audio and video recordings
   - storing unstructured data
