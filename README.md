@@ -124,7 +124,16 @@
       - key-value database
         - key is globally unique across entire database
         - the data corresponding eith key can structured or ustructured
-        - can scale to accomododatee
+        - can scale to accomododate many simultaneous request without impacting perfomance.
+      - Document
+        - is similar to key-value database bbut the value is restricted to a specific structured format eg JSON
+      - Column-Family
+        - use an index to identify data in groups of related columns.
+        - good ability to scale
+      - Graph
+        - specialize in exploring relationship between pieces of data.
+        - each animal and person represent a node in the graph.
+        
 </details>
 
 <details>
