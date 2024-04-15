@@ -15,7 +15,24 @@
     - Data visualization - creating visual presentations of data eg. charts and dashboards to make complex information easily understandable.
     - Decision Support - make recommendations based on data-driven insights guiding besiness decisions
     - Collaboration and Communication - collaborate with other ddepartements to understand their data needs and effectively communicate complex data findings to non-technical stakeholders.
-    - Continuous Learning and Adaptation - keeping up-to=date with latest trends and adapt to new analytiacl model and methods.
+    - Continuous Learning and Adaptation - keeping up-to=date with latest trends and adapt to new analytiacl model and methods.# Data-Analytics
+# Module Focus
+  - role and scope of Data Analytics
+  - compare and contrast different data types, common data structures and file formats
+<details>
+<summary> Week 1 </summary>
+<br>
+  
+# The basic of Data
+  ## What is Data Analytics
+  - is to examine and transform raw data into actionable insights that guide inforemed decision-making processess within an orgarnisation.
+  - key responsibilities and skills
+    - Data Collection and Preparation - sourcing data, cleaning and organizing data
+    - Data aanlysis - employing statistical methods, ML techniques to interpret data, Identify trends and patterns not obvious.
+    - Data visualization - creating visual presentations of data eg. charts and dashboards to make complex information easily understandable.
+    - Decision Support - make recommendations based on data-driven insights guiding besiness decisions
+    - Collaboration and Communication - collaborate with other ddepartements to understand their data needs and effectively communicate complex data findings to non-technical stakeholders.
+    - Continuous Learning and Adaptation - keeping up-to=date 
 
   TASK 
   - Data Analyst 
