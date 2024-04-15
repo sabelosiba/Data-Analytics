@@ -110,6 +110,21 @@
     ### Relational Databases
     - Relational databasess let you make operational system out of an ERD, Relational entities correspond to databases tables, and entity attributes correspond to table columns.
     - An associative table is both a table and a relationship
+    - every row in a relational database must be unique
+    - a prinmary key is one or more attributes that uniquely identify a specific row
+    - a foreign key is or more columns in one table that points to corresponding columns in a related table, FK enforces referential integrity.
+   
+    RELATIONAL VS NON-RELATION
+    - Relational - data consistency, security, ease of back up
+    - Non-Relational - flexibility, high scalability, cost effective
+   
+    ### Non-Relational Databases
+    - does not have a predefined strucure based or tabular data
+    - examples
+      - key-value database
+        - key is globally unique across entire database
+        - the data corresponding eith key can structured or ustructured
+        - can scale to accomododatee
 </details>
 
 <details>
