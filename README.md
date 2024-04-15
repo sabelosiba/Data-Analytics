@@ -101,38 +101,49 @@
     - Relational - for storing and processing structured data
     - Nonrelational - 
 
-    ### The Relational Model
-    - The entity relationship diagram (ERD) is a visual of data modelling process, it shows the connection between related entities.
-    - cardinality refers to the relationship between two entities.
-    - unary relationship is when an entity has a connection with itself.
-    - A binary relationship connects two entities
+  ### The Relational Model
+  - The entity relationship diagram (ERD) is a visual of data modelling process, it shows the connection between related entities.
+  - cardinality refers to the relationship between two entities.
+  - unary relationship is when an entity has a connection with itself.
+  - A binary relationship connects two entities
    
-    ### Relational Databases
-    - Relational databasess let you make operational system out of an ERD, Relational entities correspond to databases tables, and entity attributes correspond to table columns.
-    - An associative table is both a table and a relationship
-    - every row in a relational database must be unique
-    - a prinmary key is one or more attributes that uniquely identify a specific row
-    - a foreign key is or more columns in one table that points to corresponding columns in a related table, FK enforces referential integrity.
+  ### Relational Databases
+  - Relational databasess let you make operational system out of an ERD, Relational entities correspond to databases tables, and entity attributes correspond to table columns.
+  - An associative table is both a table and a relationship
+  - every row in a relational database must be unique
+  - a prinmary key is one or more attributes that uniquely identify a specific row
+  - a foreign key is or more columns in one table that points to corresponding columns in a related table, FK enforces referential integrity.
    
-    RELATIONAL VS NON-RELATION
-    - Relational - data consistency, security, ease of back up
-    - Non-Relational - flexibility, high scalability, cost effective
+  RELATIONAL VS NON-RELATION
+  - Relational - data consistency, security, ease of back up
+  - Non-Relational - flexibility, high scalability, cost effective
    
-    ### Non-Relational Databases
-    - does not have a predefined strucure based or tabular data
-    - examples
-      - key-value database
-        - key is globally unique across entire database
-        - the data corresponding eith key can structured or ustructured
-        - can scale to accomododate many simultaneous request without impacting perfomance.
-      - Document
-        - is similar to key-value database bbut the value is restricted to a specific structured format eg JSON
-      - Column-Family
-        - use an index to identify data in groups of related columns.
-        - good ability to scale
-      - Graph
-        - specialize in exploring relationship between pieces of data.
-        - each animal and person represent a node in the graph.
+  ### Non-Relational Databases
+  - does not have a predefined strucure based or tabular data
+  - examples
+    - key-value database
+      - key is globally unique across entire database
+      - the data corresponding eith key can structured or ustructured
+      - can scale to accomododate many simultaneous request without impacting perfomance.
+    - Document
+      - is similar to key-value database bbut the value is restricted to a specific structured format eg JSON
+    - Column-Family
+      - use an index to identify data in groups of related columns.
+      - good ability to scale
+    - Graph
+      - specialize in exploring relationship between pieces of data.
+      - each animal and person represent a node in the graph.
+
+  ## Database Use cases
+  ### Online Transactional Processing (OLTP)
+  - handles daily transactions eg booking flight, or ordering online
+  - balance the ability to write and read data efficiently
+
+  ### Normalisation
+  - is a process for structuring a database in a way that minimizes duplication of data.
+  - First nomrmal form(!NF) is when every row in a table and every column contains a unique value
+  - Second Normal Form(2NF) starts where 1NF leaves off, all nonprimary key values must depend on the entire primary key.
+  - Third Normal Form(3NF) all columns must depend on only the primary key (highly normalized)
         
 </details>
 
