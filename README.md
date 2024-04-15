@@ -19,9 +19,7 @@
 # Module Focus
   - role and scope of Data Analytics
   - compare and contrast different data types, common data structures and file formats
-<details>
-<summary> Week 1 </summary>
-<br>
+
   
 # The basic of Data
   ## What is Data Analytics
