@@ -159,7 +159,12 @@
   - First nomrmal form(!NF) is when every row in a table and every column contains a unique value
   - Second Normal Form(2NF) starts where 1NF leaves off, all nonprimary key values must depend on the entire primary key.
   - Third Normal Form(3NF) all columns must depend on only the primary key (highly normalized)
-        
+
+  ### Online Analytical Processing (OLAP)
+  - focus on ability of organizations to analyze data.
+  - OLAP and OLTP databases can use relational database but their structures are different.
+  - OLTP balance transactional read and write perfomance, resulting in highly normalised design (3NF)
+  - OLAP have denormalized design, this is wider tables distribution of data instead of multiple tables. more efficient for analytical queries to read large amount of data for single table.
 </details>
 
 <details>
