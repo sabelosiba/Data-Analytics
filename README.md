@@ -166,15 +166,15 @@
   - OLTP balance transactional read and write perfomance, resulting in highly normalised design (3NF)
   - OLAP have denormalized design, this is wider tables distribution of data instead of multiple tables. more efficient for analytical queries to read large amount of data for single table.
 
- ### Schema Concepts
- - Tradictional systems require highly normalised databases, denormalized is for analytical systems.
- - A *Data warehouse* - is database thats aggregates data from many transactional systems for analytical purposes. (Facilitates analytics)
- - A *Data mart* is a subset of a data warehouse. DW server entire organization whereas DM focus on particular department within organization.
- - A *Data Lake* - stores raw data in its native format instead of conforming to a relational database structure.
+   ### Schema Concepts
+   - Tradictional systems require highly normalised databases, denormalized is for analytical systems.
+   - A *Data warehouse* - is database thats aggregates data from many transactional systems for analytical purposes. (Facilitates analytics)
+   - A *Data mart* is a subset of a data warehouse. DW server entire organization whereas DM focus on particular department within organization.
+   - A *Data Lake* - stores raw data in its native format instead of conforming to a relational database structure.
 
-VIDEO
-- Database - relational database - record data (OLTP) - stored in tables , data is highly detailed, flexible
-- DW - used for analytical processing(OLAP) - databases send data to data warehouse via ETL process - data is summarized
+  VIDEO
+  - Database - relational database - record data (OLTP) - stored in tables , data is highly detailed, flexible
+  - DW - used for analytical processing(OLAP) - databases send data to data warehouse via ETL process - data is summarized
 
 
 |   DATABASE           |  DATA WAREHOUSE            |
@@ -183,13 +183,59 @@ VIDEO
 | fresh and detailed data             | refreshed periodically and summarized             |
 | slow when querying large amounts of data and slow down transactional processes   |  faster and dont interfere with any processes            |
 
-- Data lake - designed to capture raw data - made for large amounts of data
+  - Data lake - designed to capture raw data - made for large amounts of data
+  - Star schema facilitate analytical processing, denormalized to improve read perfomance over large data
+  - snownflake
+
+  ### Dimensionality
+  - refers to the number of attributes a table has.
+  - greater the attributes the greater higher the dimensionality.
 
 
+  ## Data acquisition COncepts
+  ### Integration
+  - Data from transactional systems flow into data warehouses and data marts for analysis.
+  - you retrieve, reshape, insert data to move data between operational and analytical environments. you can use variety of methods to transfer data efficiently and effectively.
+  - one approach is Extract, Transform, and Load (ETL0
+    1. Extract - extract data from source to staging area. goal is move data from relational database into a flat file
+    2. Transform - goal reformat data from its transactional to data warehouse's analytical design
+    3. Load - ensure data gets into the analytical system 
 
 
+  ### Data collection methods
+  - Application Programming Interfaces(APIs)
+  - Web services
+  - Web Scrabing
+  - Human in the loop
+  - Surveys
+  - Survey tools
+  - Observation
+  - Sampling
 
+  ## Working with Data
+  - to turn a database design into an operation database ready to accept data, you use Data Definition Language(DDL) components of SQL.
+  - DDL lets you create, modify and delete tables
+  - to generate insights, use Data Manipulation Language(DML) capabilities of SQL to insert, modify and retrieve information from databases.
+  - DDL manage structure while DML manage data in the database
 
+  ### Data Manipulation
+  - 4 possible actions
+    - Create new data
+    - Read existing data
+    - Update existing data
+    - Delete existing data
+  - CRUD operations
+
+    Data Manipulation in SQL
+
+    |  Operation     |  SQL Keyword     |  Description  |
+    | -------------- |  --------------  |  --------------  |
+    |  Create        |  INSERT          |  Creates new data in an existing table  |
+    |  Read          |  SELECT          |  Retrieves data from an existing table  |
+    |  Update        |  UPDATE          |  Changes existing data in an existing table  |
+    |  Delete        |  DELETE          |  Removes existing data from an existing table  |
+
+  - 
 
 
 </details>
