@@ -165,6 +165,33 @@
   - OLAP and OLTP databases can use relational database but their structures are different.
   - OLTP balance transactional read and write perfomance, resulting in highly normalised design (3NF)
   - OLAP have denormalized design, this is wider tables distribution of data instead of multiple tables. more efficient for analytical queries to read large amount of data for single table.
+
+ ### Schema Concepts
+ - Tradictional systems require highly normalised databases, denormalized is for analytical systems.
+ - A *Data warehouse* - is database thats aggregates data from many transactional systems for analytical purposes. (Facilitates analytics)
+ - A *Data mart* is a subset of a data warehouse. DW server entire organization whereas DM focus on particular department within organization.
+ - A *Data Lake* - stores raw data in its native format instead of conforming to a relational database structure.
+
+VIDEO
+- Database - relational database - record data (OLTP) - stored in tables , data is highly detailed, flexible
+- DW - used for analytical processing(OLAP) - databases send data to data warehouse via ETL process - data is summarized
+
+
+|   DATABASE           |  DATA WAREHOUSE            |
+| ------------ | ------------ |
+| Transactions             | Analytics and reporting             |
+| fresh and detailed data             | refreshed periodically and summarized             |
+| slow when querying large amounts of data and slow down transactional processes   |  faster and dont interfere with any processes            |
+
+- Data lake - designed to capture raw data - made for large amounts of data
+
+
+
+
+
+
+
+
 </details>
 
 <details>
