@@ -323,7 +323,27 @@
    
   ### Reduction
   - is the process of shrinking an extensive dataset without begatively impacting its analytical value.
-  - types - dimensionality reduction and numerosity reduction
+  - types
+    - dimensionality reduction
+      - reduction technique is dimensionality reduction which removes attributes from a dataset.
+        - removing attributes reduces dataset overall size.
+    - numerosity reduction
+      - reduces overall volume of data. eg. using histogram
+      - improve efficiency of analysis.
+    - sampling
+      - is a technique that selects a subset of individual records from their initial dataset.
+
+  Aggregation - is the summarization of raw data for analysis and control of privacy. eg finding max or min of data
+  Transposing data - is swaping rows and columns to facilitate analysis.
+  Normalization - converts data from different scales to same scale.
+  Min-Max Normalization -
+  Parsing/String Manipulation -
+
+  ## Managing Data Quality
+  ### Circumstances to check for Quality
+  - 
+     
+  
 
 </details>
 
