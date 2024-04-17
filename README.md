@@ -341,8 +341,43 @@
 
   ## Managing Data Quality
   ### Circumstances to check for Quality
+  - every stop along data life-cycle journey can impact data quality.
+ 
+  ### Automated Validation
+
+  ### Data Quality Dimensions
+  - consider multiple attributes of data
+  - account for 6 dimensions
+    - Data accuracy
+    - Data completeness
+    - Data consistency
+    - Data Timeliness
+    - Data Uniqueness
+    - Data Validity
+   
+  ### DQ Rules and metrics
+  - understandin data qualuty dimensions, consider how to measure each of them to improve overall quality
   - 
-     
+
+  ### Methods to validate quality
+  - Reasonable Expectations
+    - check where ot not data in you analytics environment meet reasonable expectations.
+   
+  - Data profiling
+    - use statistical measures to check for data discrepancies, including values that are missing. infrequently ot too frequently occurrence anor ekimination.
+   
+  - Data Audits
+    - use data profiling techniques that help identify data integrity and security issues
+   
+  - Sampling
+    - use a subset of data to inform conclusions about overall data.
+   
+  - Cross-Validation
+    - evaluates how well predictive models perfom
+    - divide data into 2
+      - training set - build predictive model
+      - testing set - determine how accurate the prediction is
+    
   
 
 </details>
