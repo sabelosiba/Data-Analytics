@@ -184,8 +184,8 @@
 | slow when querying large amounts of data and slow down transactional processes   |  faster and dont interfere with any processes            |
 
   - Data lake - designed to capture raw data - made for large amounts of data
-  - Star schema facilitate analytical processing, denormalized to improve read perfomance over large data
-  - snownflake
+  - Star schema facilitate analytical processing, denormalized to improve read perfomance over large data,simple queries, data from OLTP into star create large data duplication so consume more space, DM use star 
+  - snownflake - less denormalized,  complex query as tables grows, more complex, less storage, DW use snowflake
 
   ### Dimensionality
   - refers to the number of attributes a table has.
@@ -199,7 +199,9 @@
   - one approach is Extract, Transform, and Load (ETL0
     1. Extract - extract data from source to staging area. goal is move data from relational database into a flat file
     2. Transform - goal reformat data from its transactional to data warehouse's analytical design
-    3. Load - ensure data gets into the analytical system 
+    3. Load - ensure data gets into the analytical system
+   
+  - ELT has speed advantages
 
 
   ### Data collection methods
@@ -235,8 +237,93 @@
     |  Update        |  UPDATE          |  Changes existing data in an existing table  |
     |  Delete        |  DELETE          |  Removes existing data from an existing table  |
 
-  - 
 
+
+# Data Quality
+- challenges of data quality
+- data manipulation techniques
+- applying data quality control
+
+## Data Quality Challenges
+- examining each data source and its own unique quality issues.
+
+  ### Duplicate Data
+  - occurs when data representing the same transaction is accidentally duplicated within a system.
+  - resolve by prevent its creation and duplicate resolution process
+  - source is having multiple data sources
+ 
+  ### Redundant Data
+  - is a function of intergrating multiple systems.
+  - happens when same data exist in multiple places, also inaapropriate database design.
+  - shared data elements
+  - resolving redundant data
+    - synchronization to shared data elements
+    - resturcture tables
+   
+  ### Missing Values (Null Values)
+  - impacts data quality
+  - occur when you expect an attribute to contain data but nothing is there.
+  - A null value is an absent of a value
+  - to handle missing values, first check their existence.
+ 
+  ### Invalid Data
+  - are values outside the valid range for a given attribute.
+  - violates a business rule instead of having a incorrect data type e.g for temperature -99 999 is a valid number but not a valid temperature in Earth.
+ 
+  ### Nonparametric Data
+  - is data collected from cater=gorical variables.
+  - categories differ it can indicate differentiation or rank order associated eg. rank pain in a scale of 0 to 10.
+ 
+  ### Data Outliers
+  - is a value that differs significantly from other observations in a dataset.
+ 
+  ### Specicification mismatch
+  - describes the target value for a component
+  - occurs when an individual components characteristics are beyond the range of acceptable values.
+ 
+  ### Data type Validation
+  - ensures that values in a dataset have a consistent data type.
+
+  ## Data Manipulation Techbiques
+  ### Recoding Data
+  - is a technique to map original values for a variable into new values to facilitate analysis.
+  - recoding group data into multiple categories, creating categorical variable
+    - Nominal - variable with 2 or more categories with no natural order of categories eg hair color
+    - Ordinal - category with an inherent rank eg T-shirt size
+    - variable values fit into fixed numner of categories
+
+  ### Derived variables
+  - is a new varible resulting from a calculation on an existing variable.
+  - dont have to be categorical
+ 
+  ### Data Merge
+  - uses a common variable combine multiple datasets with different structures into a single dataset.
+  - improve data quality
+ 
+  ### Data Blending
+  - combines multiple sources of data into a single dataset at the reporting layer.
+  - allows analyst to combine datasets in ad hoc manner without saving blended sataset in a relational database.
+  - blended satasset exist only at the reporting layer
+ 
+  ### Concatenation
+  - merging of separe variables into a single variable.
+ 
+  ### Data append
+  - combines multiple data sources with the same structure, resulting in a new dataset containing all rows from the original datasets.
+  - f
+ 
+  ### Imputation
+  - is a technique for dealing with missing values by replacing them with substitutes.
+  - approaches to handle missing data
+    - Remove missing data (Rows)
+    - Replace with Zero
+    - Replace with Overall average
+    - Replace with Most Frequent(MODE)
+    - Closest value average
+   
+  ### Reduction
+  - is the process of shrinking an extensive dataset without begatively impacting its analytical value.
+  - types - dimensionality reduction and numerosity reduction
 
 </details>
 
