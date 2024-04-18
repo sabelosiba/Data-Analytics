@@ -15,22 +15,7 @@
     - Data visualization - creating visual presentations of data eg. charts and dashboards to make complex information easily understandable.
     - Decision Support - make recommendations based on data-driven insights guiding besiness decisions
     - Collaboration and Communication - collaborate with other ddepartements to understand their data needs and effectively communicate complex data findings to non-technical stakeholders.
-    - Continuous Learning and Adaptation - keeping up-to=date with latest trends and adapt to new analytiacl model and methods.# Data-Analytics
-# Module Focus
-  - role and scope of Data Analytics
-  - compare and contrast different data types, common data structures and file formats
-
-  
-# The basic of Data
-  ## What is Data Analytics
-  - is to examine and transform raw data into actionable insights that guide inforemed decision-making processess within an orgarnisation.
-  - key responsibilities and skills
-    - Data Collection and Preparation - sourcing data, cleaning and organizing data
-    - Data aanlysis - employing statistical methods, ML techniques to interpret data, Identify trends and patterns not obvious.
-    - Data visualization - creating visual presentations of data eg. charts and dashboards to make complex information easily understandable.
-    - Decision Support - make recommendations based on data-driven insights guiding besiness decisions
-    - Collaboration and Communication - collaborate with other ddepartements to understand their data needs and effectively communicate complex data findings to non-technical stakeholders.
-    - Continuous Learning and Adaptation - keeping up-to=date 
+    - Continuous Learning and Adaptation - keeping up-to=date with latest trends and adapt to new analytiacl model and methods.
 
   TASK 
   - Data Analyst 
@@ -333,11 +318,11 @@
     - sampling
       - is a technique that selects a subset of individual records from their initial dataset.
 
-  Aggregation - is the summarization of raw data for analysis and control of privacy. eg finding max or min of data
-  Transposing data - is swaping rows and columns to facilitate analysis.
-  Normalization - converts data from different scales to same scale.
-  Min-Max Normalization -
-  Parsing/String Manipulation -
+  - Aggregation - is the summarization of raw data for analysis and control of privacy. eg finding max or min of data
+  - Transposing data - is swaping rows and columns to facilitate analysis.
+  - Normalization - converts data from different scales to same scale.
+  - Min-Max Normalization -
+  - Parsing/String Manipulation -
 
   ## Managing Data Quality
   ### Circumstances to check for Quality
@@ -378,7 +363,18 @@
       - training set - build predictive model
       - testing set - determine how accurate the prediction is
     
-  
+
+# Data Analytics and Reporting
+- insight is a new piece of information you create from data that influence a decision.
+- understand concepts of stats
+- learn descriptive stat methods
+- inferential stat methods
+- types of analysis and key techniques
+
+## Fundamentals of Statistics
+- a population represents all the data subjects you want to analyze.
+- a census is obtaining data for every element of your population.
+- 
 
 </details>
 
@@ -386,6 +382,70 @@
 <summary> Week 2 </summary>
 <br>
 
+# Data Analytics and Reporting
+## Spreadsheets
+- provide intuitive way to organize data into rows and columns.
 
+## Programming Languages
+  ### R programming
+  - focuses on creating analytics applications.
+
+  ### Python
+  - python data analysis library (pandas) provides a set of tools for structuring and analyzing data.
+
+  ### Structured Query Language (SQL)
+  - DDL - define structure of database
+  - DML - work with data inside a database
+  - DDL Commands
+    - CREATE - create a new table
+    - ALTER - change the structure of a table already created
+    - DROP - deletes an entire table from server
+  - DML commands
+    - SELECT - retrieve information from database
+    - INSERT - add new records(Rows) to a database
+    - UPDATE - modify rows in the database
+    - DELETE - delete rows from a database table
+
+## Statistics Packages
+  ### IBM SPSS
+  ### Stata
+  ### Minitab
+
+## Machine Learning
+  ### IBM SPSS Modeler
+  ### RapidMiner
+
+## Analytics Suites
+  ### IBM Cognos
+  - major components
+    - Cognos connection - web-based offers access to other elements of cognos suite
+    - Query Studio - provides access to data querying and basic reporting tools
+    - Report studio - offers advance reporting design tools for complex reporting needs.
+    - Analysis Studio - enables advanced modelling and analytics on large datasets\
+    - Event studio - provides real time data monitoring and alerting
+    - Metric studio - offers the ability to create scorecards
+    - Cognos viewer - allows stakeholders to easily interact with data
+   
+  ### Microsoft Power BI
+  - built on SQL server database
+  - easy intergration and cost effective
+  - major components
+    - Power BI desktop - allows to interact with data
+    - Power BI is Microsoft (SaaS) offering power BI capabilities in the cloud
+    - Mobile apps - provide users of iOS, Android windows device with access to power BI capabilities
+    - Power BI report builder - allows developers to create paginated reports
+    - Power BI report Server - offers organizations the ability to host their own Power BI environment
+   
+  ### MicroStrategy
+  ### Domo
+  ### Datorama
+  ### AWS QuickSight
+  ### Tableau
+  ### Qlik
+  ### BusinessOjects
+  
+
+  
+   
 
 </details>
