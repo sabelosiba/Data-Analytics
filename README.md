@@ -443,9 +443,99 @@
   ### Tableau
   ### Qlik
   ### BusinessOjects
-  
 
+# Data Visualization
+## Understanding Business Requirements
+- A report is a static electronic or physical document that reflects information at a given point in time.
+- Dashboard is an alternative visualization that encourages people to explore data dynamically.
+- when developing a report or dashboard understand the auidence and their needs
+- after that identify data sources that satisfy their requirments
+- pull approach - publish a report to known location eg web page
+- push approach - report is automatically sent to appropriate people
+- blended approach - (Store the report centrally) inform people that the report is available while maintaining central control of the report itself.
+
+## Inderstanding Report Design Elements
+- design principles (5 C's ) of creating visualization
+  - Control - how you focus the attention of your auidence
+  - Correctness - information mast be accurate with no spelling mistakes
+  - Clarity - select right visualization tool for communicating your message and easy to interpret and read
+  - Consistency - use same design , documentation elements thoughout
+  - Concentration - use visuals to focus auidence attention on rekevant information without overwhelming details.
+ 
+## Report Cover Page
+- have a concise title that describes the contents of the report
+- communicate a significant insight from the report
+
+## Executive Summary
+- provide overview of reports contents
+## Design Elements
+- color schemes - limited selection of colors use when creating a report / dashboard.
+- page layout - determines the arrangement of its component parts.
+- font size - 
+- style
+- charts
+- corporate standards
   
+## Dashboard Development Methods
+- Dashboards are dynamic tools that helps people explore data to inform their decision-making.
+
+  ### Consumer Types
+  ### Data Source Considerations
+  - static data is data thar refreshes at some regular interval. a design pattern is for operational databases to update a data warehousee everynight.
+  - Continuous data (live data) - comes directly from an operational databse that people use to perfom their daily duties. operational database provides live data feed to the dashboard.
+ 
+  ### Data Type Coonsiderations
+  - dashboards differs from report as dashboard use software as the delivery mechanism.
+  - When creating a dashboard, you use qualitative data to create dimensions.
+  - A dimension is attribute used to divide data into categories.
+  - a measure is a numeric, quantitative value that a dashboard user is curious about.
+  ### Development Process
+  - after identify data sources that power your dashboard, develop the dashboard
+  - use wireframes - is blueprint for an application that defines the basic design and functions of a dashboard.
+  - use mock-up - extends a wireframe by provideing details about visual elements of the dashboard. goal is give a perspective as to the dashboards final user interface.
+ 
+  ### Delivery Considerations
+  ### Operational Considerations
+  - As you build a dashboard,clearly define the access permissions.
+  - Access permissions define the data that a given person can access. 
+
+## Exploring Visualization Types
+  ### Charts
+  - methods for visualizing both qualitative and quantitative data.
+    - Line chart
+    - pie chart - presents categorical, or discrete, data as individual slices of the pie.
+    - bar chart - presents categorical data.
+    - stacked chart -  starts with a bar chart and extends it by incorporating proportional segments on each bar for categorical data.
+    - scatter chart -
+    - bubble chart -
+  - histograms are particularly well suited to illustrating frequency and centrality.
+    - is a chart that shows a frequency distribution for numeric data.
+  - maps
+    - geofraphic maps -
+    - heat -
+    - tree -
+  - warefall - displays the cumulative effect of numeric values over time.
+  - infographic -
+  - word cloud -  is a visualization that uses shape to signify the importance of words. and eliminate common words and conjunctions.
+
+## Comparing Report  Types
+  ### Static and Dynamic
+  - static reports pull data from various data sources to reflect data at a specific point in time.
+  - Dynamic report give real-time access to information.
+
+  ### Ad hoc
+  - Ad hoc reports / one-time use existing data to meet a unique need at a specific point in time.
+
+  ### Self-Service (On-Demand)
+  ### Recurring Reports
+  - provide summary information on a regularly scheduled basis. get delivered to their audience immediately after creation.
+    - Compliance report - detail how your organization meet its compliance obligations.
+    - financial compliance
+    - safety compliance
+    - risk compliance
    
+  ### Tactical and Research
+  - tactical reports - provides information to onform an organization short term decisions
+  - researcg report helps an organisation make strategic decisions
 
 </details>
