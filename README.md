@@ -536,6 +536,31 @@
    
   ### Tactical and Research
   - tactical reports - provides information to onform an organization short term decisions
-  - researcg report helps an organisation make strategic decisions
+  - research report helps an organisation make strategic decisions
+
+# Data Governance
+## Data Governace concepts
+- is set of policies, procesures and controls an organization develops to safeguard its information while making it useful for transactional and analytic purposes.
+- it umbrella term covering creation, interpretation and enforcement of data.
+- these policies promote data quality, use of data attributes, access to different data domains. also identify how to secure data, comply with regulations, protect data privacy..
+
+  ### Data Governance Roles
+- Data stewardship is a=the act of developing the policies and procedures for looking after an organization's data quality, security, privacy and regulatory compliance.
+- data steward is responsible for leading an organization's data gorvance activities.
+- A data owner is a senior business leader with overall responsibility for a specific data domain.
+- A data domain/ data subject area contains data about a particular operational division within organization.
+- subject area data steward works in the data owners organization.
+- a data custodian is a role given to someone who implements technical controls that execute data governance policies. usualky IT who configure applications, dashboards and database.
+- Data access requirements determine which people need access to what data.
+- when determining access requirements, essential to develop data classification matrix.
+- Data classification matrix defines categories, descriptions and disclosure implications for data
+- A data steward works with a data owner to establish broad classifications, with subject area data stewards to develop procedures for granting access to information, and with data custodians to ensure the appropriate technical controls are in place to protect information.
+
+  ### Access Permissions
+  - Role-based acess means that instead of giving access to individual people, you grant access to the role they occupy.
+  - a role-based access approach facilitates permissions maintenance and improves consistency.
+ 
+  ### Group Permissions
+  - 
 
 </details>
