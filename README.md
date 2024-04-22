@@ -590,4 +590,13 @@
 
   ### Data classification requirements
   - is the process of analyzing data and organizing it into risk-based categories.
+  - when classifying data you put data elements into one of the four classifications.
+  - Personally Identifiable Information (PII) is any data that can uniquely identify a person.
+
+
+  ### Payment card information
+  - payment card industry (PCI) is a non-governmental body that governs card-based financial payments.
+  - To prevent integrity of card-based financial transactions, fraud finacial services build PCI Security Standards Council (PCI SSC).
+  - PCI SSC develops policies to govern the processing, transmission and storage of electronic payments.
+  -  
 </details>
