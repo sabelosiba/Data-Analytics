@@ -561,6 +561,33 @@
   - a role-based access approach facilitates permissions maintenance and improves consistency.
  
   ### Group Permissions
+  - an organization chart documents the reporting structure within an organization.
+ 
+  ### Data Use Agreements
+  - A data use agreement (DUA) is a conctractual document for transferring private data between organizations. establish a dua before sharing data with outside party.
+ 
+  ### Security requirements
+  - TECHNICAL CONTROLS FOR PROTECTING DATA.
+  - Data encryption for data protection, as data is unsuable without the key to decrypt it.
+  - Encrypt data at rest as well as data in trnasit to keep it secure.
+  - data at rest locations is databases and flat files.
+  - Transparent Data Encryption (TDE) ensure the database files and log file are encryped.
+  - data ib transit is data actively moving between one location to another, during data transmission encrypt the connection between the locations.
+  - transmitting data over internrt uses HTTP to ensure data security use TLS.
+ 
+  ### Storage Environment Requirements
+  - data at rest exist in local storage, shared drive and cloud, regardless of storage environment encrypt all data at rest.
+ 
+  ### User Requirements
+  - specify how to collect, process, use, store, retain and remove data.
+  - crucial to effective data govarnance
+  - An acceptable use policy (AUP) defines an individual's responsibilities when accessing, using, sharing and removing organizational data.
+  - AUP has provisions for each type of data in an organizations's data classification matrix.
+  - AUPs describe acceptable locations for storing proprietary information; what to do in the event of theft, loss, or unauthorized disclosure; and methods of disposal.
+ 
+  ### Entity Relationship Requirements
   - 
 
+  ### Data classification requirements
+  - is the process of analyzing data and organizing it into risk-based categories.
 </details>
